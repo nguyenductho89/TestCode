@@ -15,6 +15,8 @@
 		D0ADEDFB257E225B009414DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0ADEDFA257E225B009414DA /* Assets.xcassets */; };
 		D0ADEDFE257E225B009414DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ADEDFC257E225B009414DA /* LaunchScreen.storyboard */; };
 		D0ADEE09257E225B009414DA /* TestCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ADEE08257E225B009414DA /* TestCodeTests.swift */; };
+		D0ADEE16257E2308009414DA /* CellInsideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ADEE14257E2308009414DA /* CellInsideViewController.swift */; };
+		D0ADEE17257E2308009414DA /* CellInsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0ADEE15257E2308009414DA /* CellInsideViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		D0ADEE04257E225B009414DA /* TestCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0ADEE08257E225B009414DA /* TestCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCodeTests.swift; sourceTree = "<group>"; };
 		D0ADEE0A257E225B009414DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0ADEE14257E2308009414DA /* CellInsideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInsideViewController.swift; sourceTree = "<group>"; };
+		D0ADEE15257E2308009414DA /* CellInsideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellInsideViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		D0ADEDED257E2259009414DA /* TestCode */ = {
 			isa = PBXGroup;
 			children = (
+				D0ADEE13257E22E1009414DA /* UITableview */,
 				D0ADEDEE257E2259009414DA /* AppDelegate.swift */,
 				D0ADEDF0257E2259009414DA /* SceneDelegate.swift */,
 				D0ADEDF2257E2259009414DA /* ViewController.swift */,
@@ -100,6 +105,15 @@
 				D0ADEE0A257E225B009414DA /* Info.plist */,
 			);
 			path = TestCodeTests;
+			sourceTree = "<group>";
+		};
+		D0ADEE13257E22E1009414DA /* UITableview */ = {
+			isa = PBXGroup;
+			children = (
+				D0ADEE14257E2308009414DA /* CellInsideViewController.swift */,
+				D0ADEE15257E2308009414DA /* CellInsideViewController.xib */,
+			);
+			path = UITableview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0ADEE17257E2308009414DA /* CellInsideViewController.xib in Resources */,
 				D0ADEDFE257E225B009414DA /* LaunchScreen.storyboard in Resources */,
 				D0ADEDFB257E225B009414DA /* Assets.xcassets in Resources */,
 				D0ADEDF6257E2259009414DA /* Main.storyboard in Resources */,
@@ -204,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0ADEDF9257E2259009414DA /* TestCode.xcdatamodeld in Sources */,
+				D0ADEE16257E2308009414DA /* CellInsideViewController.swift in Sources */,
 				D0ADEDF3257E2259009414DA /* ViewController.swift in Sources */,
 				D0ADEDEF257E2259009414DA /* AppDelegate.swift in Sources */,
 				D0ADEDF1257E2259009414DA /* SceneDelegate.swift in Sources */,
